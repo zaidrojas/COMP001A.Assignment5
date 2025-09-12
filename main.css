@@ -1,0 +1,21 @@
+/* Custom Font */
+@font-face {
+    font-family: "Computer Pixel-7";
+    src: url("fonts/ComputerPixel7-mnL2.ttf") format("truetype");
+}
+
+/* Apply to the whole page */
+body {
+    background-color: black;   /* black background */
+    color: limegreen;          /* green text */
+    font-family: "Computer Pixel-7", monospace; /* custom font (you can swap this) */
+    margin: 20px;
+    letter-spacing: 3px;
+}
+
+/* Make <hr> lines green */
+hr {
+    border: none;
+    border-top: 2px solid limegreen;
+    margin: 20px 0;
+}

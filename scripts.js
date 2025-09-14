@@ -11,3 +11,20 @@ function checkPassword( _password) {
         message.style.color = "red";
     }
 }
+
+// Code to check if zoomed far in or out
+function checkZoom() {
+    let zoom = window.devicePixelRatio;
+    let message = document.getElementById("answer"); // get the message element
+
+    if (zoom >= 3) {
+      message.textContent = "[re   ]";
+      message.style.color = "limegreen";
+    } else if (zoom <= 1) {
+      message.textContent = "[   ize]";
+      message.style.color = "limegreen";
+    }else{
+        message.textContent = "[      ]";
+        message.style.color = "limegreen";
+    }
+}

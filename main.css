@@ -19,3 +19,29 @@ hr {
     border-top: 2px solid limegreen;
     margin: 20px 0;
 }
+
+/* Page Specific Elements */
+
+/* the safe page */
+#safeSection img{
+    display: block;
+    margin: 15px auto;
+    max-width: 500px;
+    width: 50%;
+    height: auto;
+}
+
+#safeSection {
+    display: flex;
+    flex-direction: column; /* place items vertically */
+    align-items: center;     /* center the button as well */
+    text-align: center;
+}
+
+/* Hidden text page */
+#hiddenSection {
+    display: flex;
+    flex-direction: column; /* place items vertically */
+    align-items: center;     /* center the button as well */
+    text-align: center;
+}

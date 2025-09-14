@@ -11,17 +11,43 @@ body {
     font-family: "Computer Pixel-7", monospace; /* custom font (you can swap this) */
     margin: 20px;
     letter-spacing: 3px;
+
+    h2, h3{
+        color: white;
+    }
+}
+
+footer p{
+    color: black;
+    background-color: limegreen;
+    padding: 10px;
+    margin: 0;
+}
+
+
+a:link {
+    color: limegreen;
 }
 
 a:visited {
     color: green;
 }
 
+a:hover {
+    color: white;
+}
+
 /* Make <hr> lines green */
 hr {
     border: none;
     border-top: 2px solid limegreen;
-    margin: 20px 0;
+    margin: 20px;
+}
+
+.my-name{
+    text-align: center;
+    letter-spacing: 15px;
+    margin: 20px;
 }
 
 /* Page Specific Elements */

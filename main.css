@@ -50,3 +50,19 @@ hr {
     text-align: center;
     color: black; /* hidden text color */
 }
+
+/* the maze page */
+#mazeSection img{
+    display: block;
+    margin: 15px auto;
+    max-width: 500px;
+    width: 50%;
+    height: auto;
+}
+
+#mazeSection {
+    display: flex;
+    flex-direction: column; /* place items vertically */
+    align-items: center;     /* center the button as well */
+    text-align: center;
+}

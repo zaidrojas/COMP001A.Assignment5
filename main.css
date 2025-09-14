@@ -13,6 +13,10 @@ body {
     letter-spacing: 3px;
 }
 
+a:visited {
+    color: green;
+}
+
 /* Make <hr> lines green */
 hr {
     border: none;

@@ -44,4 +44,5 @@ hr {
     flex-direction: column; /* place items vertically */
     align-items: center;     /* center the button as well */
     text-align: center;
+    color: black; /* hidden text color */
 }
